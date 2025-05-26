@@ -1,0 +1,29 @@
+.links-footer {
+    color: black;
+    text-decoration: none !important;
+}
+
+.links-footer:hover {
+    text-decoration: underline !important;
+}
+
+
+footer {
+    background-color: #F8F3ED;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* === Estilos para tema oscuro === */
+.footer-dark {
+    background-color: #1f1f1f;
+    /* fondo oscuro */
+    color: white;
+}
+
+.footer-dark .links-footer {
+    color: white;
+}
+
+.footer-dark .copyright-text {
+    color: white;
+}

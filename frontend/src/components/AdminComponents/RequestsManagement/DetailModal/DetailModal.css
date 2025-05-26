@@ -1,0 +1,71 @@
+.detail-modal .modal-header {
+	background-color: #ffd3b5;
+	border-bottom: 1px solid #f5e6d8;
+	color: #5d4037;
+	font-weight: 600;
+	justify-content: center; 
+	position: relative; 
+	text-align: center;
+}
+
+.detail-modal .modal-title {
+    font-size: 1.5rem;
+    color: #5d4037;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.detail-modal .modal-body {
+	font-size: 1rem;
+	color: #5d4037;
+	padding: 1.5rem;
+}
+.detail-modal .btn-close {
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+
+.detail-modal .modal-body strong {
+	color: #8d6e63;
+}
+
+.detail-modal .modal-footer {
+	border-top: 1px solid #f5e6d8;
+}
+
+.detail-modal .btn-secondary {
+	background-color: #f5e6d8;
+	color: #5d4037;
+	border: none;
+}
+
+.detail-modal .btn-secondary:hover {
+	background-color: #8d6e63;
+	color: white;
+}
+
+@media (max-width: 768px) {
+	.detail-modal .modal-dialog {
+		max-width: 90vw;
+		margin: 10vh auto;
+	}
+
+	.detail-modal .modal-content {
+	max-height: 80vh;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1040;
+	}
+
+body {
+    transition: overflow 0.3s ease;
+}
+
+}
